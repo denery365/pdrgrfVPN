@@ -1,1 +1,125 @@
-# pdrgrfVPN
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Pidr Greffin VPN</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0f0f0f;
+            color: #ffffff;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 42px;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            opacity: 0.9;
+        }
+
+        .image-box img {
+    max-width: 300px;   
+    width: 100%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+}
+        }
+
+        .features {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .feature {
+            background: #1a1a1a;
+            padding: 20px;
+            border-radius: 14px;
+        }
+
+        .feature h3 {
+            margin-top: 0;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 40px;
+            padding: 16px 28px;
+            background: #2f80ff;
+            color: #fff;
+            text-decoration: none;
+            font-size: 18px;
+            border-radius: 12px;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            background: #1c63d6;
+        }
+
+        footer {
+            margin-top: 60px;
+            opacity: 0.5;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Pidr Greffin VPN</h1>
+    <p>
+        Быстрый и стабильный VPN для приватности и безопасного доступа в сети.
+        Минимум лишнего — максимум скорости и удобства.
+    </p>
+
+    <!--image.jpg -->
+    <div class="image-box">
+        <img src="image.jpg" alt="Pidr Greffin VPN">
+    </div>
+
+    <div class="features">
+        <div class="feature">
+            <h3>🚀 Высокая скорость</h3>
+            <p>Оптимизированные сервера без лишней нагрузки.</p>
+        </div>
+
+        <div class="feature">
+            <h3>🔐 Безопасность</h3>
+            <p>Современные протоколы и шифрование трафика.</p>
+        </div>
+
+        <div class="feature">
+            <h3>⚙️ Простая настройка</h3>
+            <p>Подключение за пару кликов через Telegram.</p>
+        </div>
+    </div>
+
+    <!-- ССЫЛКА НА ТГ-БОТА -->
+    <a class="btn" href="https://t.me/Pidr_greffin_bot" target="_blank">
+        Подключиться в Telegram
+    </a>
+
+    <footer>
+        © 2026 Pidr Greffin VPN
+    </footer>
+</div>
+
+</body>
+</html>    
